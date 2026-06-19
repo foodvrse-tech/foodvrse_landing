@@ -42,11 +42,12 @@ const journeySteps = [
         description: 'Gained interest from 20+ businesses and engaged 50 early users, refining the model and platform.'
     },
     {
-        year: 'Today – Preparing for Launch',
+        year: 'Today - Scaling Smarter',
         items: [
-            'Fine-tuning the platform based on pilot feedback',
-            'Expanding partnerships and early community engagement',
-            'Positioning Dishii as the anchor brand while FoodVrse develops broader vertical solutions'
+            'Refining the platform based on pilot feedback',
+            'Expanding partnerships with early adopters',
+            'Strengthening the AI and automation capabilities behind Dishii',
+            'Preparing for broader rollout across inventory-driven businesses'
         ]
     }
 ];
@@ -182,7 +183,7 @@ export default function AboutUs() {
                         </ul>
                     </div>
                      <AnimatedContent delay={100 + journeySteps.length * 150}>
-                        <p className="text-center mt-12 text-base md:text-lg">One brand at a time, we are <strong>reshaping how food moves, sells, and sustains</strong>.</p>
+                        <p className="text-center mt-12 text-base md:text-lg">Dishii is our first step toward a larger vision: helping businesses make smarter operational decisions through AI.</p>
                      </AnimatedContent>
                 </div>
              </div>
